@@ -31,7 +31,7 @@ module.exports = {
 		/****************************************
 				новые правила
 		****************************************/
-		
+		'import/newline-after-import': [ 'warn', { 'count': 2 } ]
 		'newline-before-return': [ 'warn' ],
 		'no-confusing-arrow': [ 'warn', { 'allowParens': false } ],
 		'no-console': 'off',
