@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-tl3",
+  "version": "1.0.0",
+  "description": "ESLint Config for tl3 code style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Travelab/eslint-config-tl3.git"
+  },
+  "author": "Mika Kuliev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Travelab/eslint-config-tl3/issues"
+  },
+  "homepage": "https://github.com/Travelab/eslint-config-tl3#readme"
+}
