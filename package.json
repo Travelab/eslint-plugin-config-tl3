@@ -1,21 +1,21 @@
 {
-  "name": "eslint-config-tl3",
+  "name": "eslint-plugin-tl3",
   "version": "1.0.0",
-  "description": "ESLint Config for tl3 code style",
+  "description": "ESLint plugin for tl3 code style",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Travelab/eslint-config-tl3.git"
+    "url": "git+https://github.com/Travelab/eslint-plugin-tl3.git"
   },
   "author": "Mika Kuliev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Travelab/eslint-config-tl3/issues"
+    "url": "https://github.com/Travelab/eslint-plugin-tl3/issues"
   },
-  "homepage": "https://github.com/Travelab/eslint-config-tl3#readme",
+  "homepage": "https://github.com/Travelab/eslint-plugin-tl3#readme",
   "dependencies": {
     "eslint": "^3.18.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
