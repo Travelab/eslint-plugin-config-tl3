@@ -40,7 +40,8 @@ module.exports = {
 		'no-empty': [ 'warn', { 'allowEmptyCatch': true } ],
 		'operator-linebreak': [ 'warn', 'none', { 'overrides': { ':': 'before', '?': 'before' } } ],
 		'react/jsx-curly-spacing': [ 'warn', 'never' ],
-		'react/jsx-filename-extension': 'warn',
+		// allow JSX only within files with .jsx extension but use a hacky way to allow within index.js files
+		'react/jsx-filename-extension': [ 'warn', { 'extensions': [ '.jsx.js', 'index.js' ] } ],
 		'react/jsx-indent': [ 'warn', 'tab' ],
 		'react/no-unknown-property': 'warn',
 		'react/self-closing-comp': [ 'warn', { 'component': true, 'html': true } ],
