@@ -29,8 +29,22 @@ export default {
 	},
 	rules: {
 		/****************************************
-				наши правила
+				новые правила
 		****************************************/
+		
+		'newline-before-return': [ 'warn' ],
+		'no-confusing-arrow': [ 'warn', { 'allowParens': false } ],
+		'no-console': 'off',
+		'no-constant-condition': [ 'warn', { 'checkLoops': false } ],
+		'no-debugger': 'off',
+		'no-empty': [ 'warn', { 'allowEmptyCatch': true } ],
+		'operator-linebreak': [ 'warn', 'none', { 'overrides': { ':': 'before', '?': 'before' } } ],
+		'react/jsx-curly-spacing': [ 'warn', 'never' ],
+		'react/jsx-filename-extension': 'warn',
+		'react/jsx-indent': [ 'warn', 'tab' ],
+		'react/no-unknown-property': 'warn',
+		'react/self-closing-comp': [ 'warn', { 'component': true, 'html': true } ],
+
 		'prefer-template': [ 'warn' ],
 		'prefer-spread': [ 'warn' ],
 		'prefer-destructuring': [ 'warn', {
@@ -214,5 +228,6 @@ export default {
 		'jsx-a11y/aria-role': 'warn',
 		'jsx-a11y/img-redundant-alt': 'warn',
 		'jsx-a11y/no-access-key': 'warn',
+
 	},
 }
