@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Travelab/eslint-config-tl3#readme",
   "dependencies": {
+    "eslint": "^3.18.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.2",
     "import": "0.0.6"
