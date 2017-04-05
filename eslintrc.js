@@ -31,8 +31,10 @@ module.exports = {
 		/****************************************
 				новые правила
 		****************************************/
-		'import/newline-after-import': [ 'warn', { 'count': 2 } ],
-		'newline-before-return': [ 'warn' ],
+		'space-infix-ops': 'warn',
+		'import/newline-after-import': [ 'warn', { 'count': 3 } ],
+		// not always relevant
+		// 'newline-before-return': [ 'warn' ],
 		'no-confusing-arrow': [ 'warn', { 'allowParens': false } ],
 		'no-console': 'warn',
 		'no-constant-condition': [ 'warn', { 'checkLoops': false } ],
@@ -41,7 +43,8 @@ module.exports = {
 		'operator-linebreak': [ 'warn', 'none', { 'overrides': { ':': 'before', '?': 'before' } } ],
 		'react/jsx-curly-spacing': [ 'warn', 'never' ],
 		// allow JSX only within files with .jsx extension but use a hacky way to allow within index.js files
-		'react/jsx-filename-extension': [ 'warn', { 'extensions': [ '.jsx.js', 'index.js' ] } ],
+		// seems not working properly
+		// 'react/jsx-filename-extension': [ 'warn', { 'extensions': [ '.jsx.js', 'index.js' ] } ],
 		'react/jsx-indent': [ 'warn', 'tab' ],
 		'react/no-unknown-property': 'warn',
 		'react/self-closing-comp': [ 'warn', { 'component': true, 'html': true } ],
