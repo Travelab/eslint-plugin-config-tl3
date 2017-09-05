@@ -32,7 +32,7 @@ module.exports = {
 				новые правила
 		****************************************/
 		'space-infix-ops': 'warn',
-		'import/newline-after-import': [ 'warn', { 'count': 3 } ],
+		'import/newline-after-import': [ 'warn', { 'count': 2 } ],
 		// not always relevant
 		// 'newline-before-return': [ 'warn' ],
 		'no-confusing-arrow': [ 'warn', { 'allowParens': false } ],
@@ -100,7 +100,8 @@ module.exports = {
 		'brace-style': [ 'warn', 'stroustrup', { 'allowSingleLine': true } ],
 		'array-bracket-spacing': [ 'warn', 'always' ],
 		'react/jsx-space-before-closing': [ 'warn', 'never' ],
-		'react/forbid-component-props': [ 'warn' ],
+		// not always relevant
+		// 'react/forbid-component-props': [ 'warn' ],
 		'react/no-string-refs': [ 'warn' ],
 
 		/****************************************
