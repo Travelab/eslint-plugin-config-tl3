@@ -34,21 +34,8 @@ module.exports = {
 		/****************************************
 				новые правила
 		****************************************/
-		'space-infix-ops': 'warn',
-		'import/newline-after-import': [ 'warn', { 'count': 2 } ],
-		// not always relevant
-		// 'newline-before-return': [ 'warn' ],
-		'no-confusing-arrow': [ 'warn', { 'allowParens': false } ],
-		'no-console': 'warn',
 		'no-constant-condition': [ 'warn', { 'checkLoops': false } ],
-		'no-debugger': 'warn',
 		'no-empty': [ 'warn', { 'allowEmptyCatch': true } ],
-		'operator-linebreak': [ 'warn', 'none', { 'overrides': { ':': 'before', '?': 'before' } } ],
-		'react/jsx-curly-spacing': [ 'warn', 'never' ],
-		// allow JSX only within files with .jsx extension but use a hacky way to allow within index.js files
-		// seems not working properly
-		// 'react/jsx-filename-extension': [ 'warn', { 'extensions': [ '.jsx.js', 'index.js' ] } ],
-		'react/jsx-indent': [ 'warn', 'tab' ],
 		'react/no-unknown-property': 'warn',
 		'react/self-closing-comp': [ 'warn', { 'component': true, 'html': true } ],
 
@@ -62,59 +49,16 @@ module.exports = {
 		} ],
 		'no-var': [ 'warn' ],
 		'no-duplicate-imports': [ 'warn' ],
-		'generator-star-spacing': [ 'error', { 'before': false, 'after': true } ],
-		'arrow-spacing': [ 'warn', { 'before': true, 'after': true } ],
-		'arrow-parens': [ 'warn', 'always' ],
-		'arrow-body-style': [ 'warn', 'as-needed' ],
-		'space-unary-ops': [ 'warn', { 'words': true, 'nonwords': false } ],
-		'space-in-parens': [ 'warn', 'never' ],
-		'space-before-function-paren': [ 'warn', {
-			'anonymous': 'always',
-			'named': 'always',
-			'asyncArrow': 'always'
-		} ],
-		'space-before-blocks': [ 'warn', 'always' ],
-		'semi': [ 'warn', 'never' ],
-		'quotes': [ 'warn', 'single' ],
-		'object-curly-spacing': [ 'warn', 'always' ],
-		'no-multiple-empty-lines': 'error',
-		'no-lonely-if': 'warn',
-		'newline-per-chained-call': [ 'warn', { 'ignoreChainWithDepth': 3 } ],
-		'max-len': [ 'warn', 120, 4 ],
-		'linebreak-style': [ 'warn', 'unix' ],
-		'keyword-spacing': [ 'warn', { 'before': true, 'after': true } ],
-		'key-spacing': [ 'warn', { 'beforeColon': false } ],
-		'jsx-quotes': [ 'warn', 'prefer-double' ],
-		'indent': [ 'warn', 'tab', { 'SwitchCase': 1 } ],
-		'eol-last': [ 'warn', 'always' ],
-		'func-call-spacing': [ 'warn', 'never' ],
-		'block-spacing': [ 'warn', 'always' ],
-		'computed-property-spacing': [ 'warn', 'never' ],
-		'comma-spacing': [ 'warn', { 'before': false, 'after': true } ],
-		// точно не знаю, как лучше, надо спросить у @sukazavr
-		// 'comma-dangle': [ 'warn', {
-		//     'arrays': 'always-multiline',
-		//     'objects': 'always-multiline',
-		//     'imports': 'ignore',
-		//     'exports': 'ignore',
-		//     'functions': 'ignore',
-		// } ],
+		'comma-dangle': [ 'warn', 'always-multiline' ],
 		'camelcase': [ 'warn', { 'properties': 'always' } ],
-		'brace-style': [ 'warn', 'stroustrup', { 'allowSingleLine': true } ],
-		'array-bracket-spacing': [ 'warn', 'always' ],
 		'react/jsx-space-before-closing': [ 'warn', 'never' ],
-		// not always relevant
-		// 'react/forbid-component-props': [ 'warn' ],
 		'react/no-string-refs': [ 'warn' ],
-
 		/****************************************
 			create-react-app отсюда
 		****************************************/
 		'array-callback-return': 'warn',
 		'default-case': [ 'warn', { 'commentPattern': '^no default$' } ],
-		'dot-location': [ 'warn', 'property' ],
 		'eqeqeq': [ 'warn', 'allow-null' ],
-		'new-parens': 'warn',
 		'no-array-constructor': 'warn',
 		'no-caller': 'warn',
 		'no-cond-assign': [ 'warn', 'always' ],
@@ -198,11 +142,9 @@ module.exports = {
 			'ignoreExport': false,
 		} ],
 		'no-with': 'warn',
-		'no-whitespace-before-property': 'warn',
 		'operator-assignment': [ 'warn', 'always' ],
 		'radix': 'warn',
 		'require-yield': 'warn',
-		'rest-spread-spacing': [ 'warn', 'never' ],
 		'strict': [ 'warn', 'never' ],
 		'unicode-bom': [ 'warn', 'never' ],
 		'use-isnan': 'warn',
@@ -218,7 +160,6 @@ module.exports = {
 		} ],
 
 		'import/no-webpack-loader-syntax': 'error',
-		'react/jsx-equals-spacing': [ 'warn', 'never' ],
 		'react/jsx-no-duplicate-props': [ 'warn', { 'ignoreCase': true } ],
 		'react/jsx-no-undef': 'error',
 		'react/jsx-pascal-case': [ 'warn', {
