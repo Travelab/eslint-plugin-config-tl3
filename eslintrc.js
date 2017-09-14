@@ -27,6 +27,9 @@ module.exports = {
 			},
 		},
 	},
+	globals: {
+		'React': true
+	},
 	rules: {
 		/****************************************
 				новые правила
@@ -69,7 +72,7 @@ module.exports = {
 			'anonymous': 'always',
 			'named': 'always',
 			'asyncArrow': 'always'
-		} ],    
+		} ],
 		'space-before-blocks': [ 'warn', 'always' ],
 		'semi': [ 'warn', 'never' ],
 		'quotes': [ 'warn', 'single' ],
