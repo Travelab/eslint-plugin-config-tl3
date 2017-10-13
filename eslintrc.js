@@ -143,7 +143,7 @@ module.exports = {
 		} ],
 		'no-with': 'warn',
 		'operator-assignment': [ 'warn', 'always' ],
-		'radix': ['warn', 'as-needed'],
+		'radix': ['warn', 'always'],
 		'require-yield': 'warn',
 		'strict': [ 'warn', 'never' ],
 		'unicode-bom': [ 'warn', 'never' ],
